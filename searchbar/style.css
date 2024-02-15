@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #313131;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    padding: 10vw 25vw;
+}
+
+input{
+    padding: 1px 1px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    outline-color:  rgba(0, 0, 255, 0.674);
+}
+
+.people{
+    text-align: center;
+    display: flex;
+   
+    gap: 10px; /* Changed to fixed value */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin-top: 15px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.img{
+    height: 45px;
+    width: 45px;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h4{
+    color: white;
+    margin-top: 5px; /* Add margin to separate from image */
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
