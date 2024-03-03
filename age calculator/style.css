@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GILROY";
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(100, 100, 192);
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+#card{
+    padding: 23px;
+    background-color: white;
+    height: 80vh;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+#card h1{
+    padding-top: 12px;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+   
+}
+ #age-p{
+    margin-top: 45vh;
+text-align: center;
+ padding: 10px;   
+ font: 12px;
+ text-transform: capitalize;
+ font-weight: 600;
+
+}
+#card-cnt{
+    display: flex;
+    gap: 10px;
+}
+    
+
+
+#card input{
+    
+    margin-top: 10px;
+    margin-left: 22px;
+    height: 6vh;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 12px 22px;
+
+}
+#btn:hover{
+    box-shadow: 5px 7px 10px black;
+    border-radius: 10px;
+    padding: 12px 22px;
+   
+
+}
